@@ -1,0 +1,52 @@
+*{margin: 0; padding: 0;}
+
+i.fa.fa-search {
+    background: white;
+    padding: 4px 6px;
+    margin: 0px 0px;
+    cursor: pointer;
+}
+
+.top-bar-inside ul li {
+    padding: 5px 7px;
+    border-right: 1px solid;
+}
+
+.top-bar-inside {
+    display: flex;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.top-bar-inside ul li {
+    display: inline;
+}
+
+body {
+    font-family: Times, Times New Roman, Georgia, serif;
+    font-size: 14px;
+}
+
+
+
+/* header  */
+
+.top-bar {
+    background-color: #cecece;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+ul.contact-info {
+    flex-grow: 1;
+}
+
+ul.user-log {
+}
+
+.top-bar-inside ul {
+    padding: 0px 0px;
+}
